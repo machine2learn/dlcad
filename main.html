@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./static/css/cytocreator.css"/>
+    <link rel="stylesheet" href="./static/css/cytoscape-context-menus.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+<div id="topnav" class="topnav">
+    <img id="brand-image" src='./static/images/logom2l.png' class="img-m2l-fluid">
+    <button id="download_ex" class="btn"><i class="fa fa-file-download"> </i> Download Example</button>
+    <button id="download_model" class="btn"><i class="fa fa-download"> </i> Download</button>
+    <button id="validate_model" class="btn b-border"><i class="fa fa-check"></i>Validate Model</button>
+    <button id="zoom_handler" class="btn"><i class="fa fa-compress"></i></button>
+    <button id="zoom_plus" class="btn"><i class="fa fa-search-plus"></i></button>
+    <button id="zoom_minus" class="btn"><i class="fa fa-search-minus"></i></button>
+</div>
+
+<div class="container">
+    <div id="accordion" class="buttonbar"></div>
+    <div id="cy"></div>
+    <div id="properties" class="properties"></div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="application/javascript" src="./static/graph_editor.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.17/cytoscape.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.js"></script>
+<script type="application/javascript" src="./static/cytoscape-edgehandles.js"></script>
+<script type="application/javascript" src="./static/cytoscape-context-menus.js"></script>
+<script type="application/javascript" src="./static/model_generator.js"></script>
+<script type="application/javascript" src="./static/cytoscape-edge-bend-editing.js"></script>
+<script type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script type="application/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script type="application/javascript"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js"></script>
+<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.5.0/cytoscape-dagre.js"></script>
+<script type="application/javascript" src="./static/cytoscape-undo-redo.js"></script>
+<script type="application/javascript" src="./static/cytoscape-clipboard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.5"></script>
+<script type="application/javascript" src="./static/cy-utils/jslayers.js"></script>
+<script type="application/javascript" src="./static/cy-utils/cytoscape-styles.js"></script>
+<script type="application/javascript" src="./static/popper.js"></script>
+<script src="./static/cytoscape-popper.js"></script>
+<script src="./static/cytoscape-node-html-label.js"></script>
+</body>
+</html>
+

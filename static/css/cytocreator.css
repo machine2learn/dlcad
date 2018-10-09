@@ -1,0 +1,171 @@
+body {
+    font-family: helvetica neue, helvetica, liberation sans, arial, sans-serif;
+}
+
+.container {
+    max-width: none !important;
+    font-size: small;
+    display: flex;
+}
+
+h1 {
+    opacity: 0.5;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#cy {
+    height: 100vh;
+    width: 75%;
+    border: 1px solid #ffffff;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.74) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255, 255, 255) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+}
+
+.img-m2l-fluid {
+    margin-left: 1.5%;
+    max-height: 3.2vh;
+}
+
+.topnav {
+    margin-right: 15%;
+    margin-top: 2px;
+}
+
+.topnav button {
+    display: block !important;
+    float: right;
+    color: #404b57;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0;
+}
+
+.topnav button:hover {
+    background-color: #f8f8f8;
+    color: #5194ac !important;
+}
+
+.topnav button:focus, button:active {
+    outline: none !important;
+    box-shadow: none;
+    color: #1c385d;
+}
+
+.buttonbar {
+    display: block;
+    text-align: center;
+    height: 100%;
+    width: 11%;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 0.5vh;
+
+}
+
+.buttonbar label {
+    display: block !important;
+    -moz-box-orient: vertical;
+    vertical-align: middle;
+    *vertical-align: auto;
+    color: #808080;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.buttonbar label:hover {
+    color: #0474be;
+    font-weight: bold;
+}
+
+.buttonbar button {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    background-color: #607D8B;
+    background-image: none;
+    padding: 10px;
+
+}
+
+.buttonbar button:focus, button:active {
+    background: #cdcdcd;
+    outline: none !important;
+    box-shadow: none;
+
+}
+
+.buttonbar input[type="radio"] {
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+
+.buttonbar input:checked + span {
+    color: #607D8B;
+    font-weight: bold;
+    background-color: #bfbfbf;
+    display: block;
+    padding: 5px;
+}
+
+.card-body {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 !important;
+    flex: 0 !important;
+    padding: 0 !important;
+    background-color: white;
+}
+
+.properties {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    width: 15%;
+    flex-direction: column;
+    background-color: white;
+}
+
+.properties select, input {
+    max-height: 65px;
+    margin: 5px;
+}
+
+.invalid {
+    color: #bf0000;
+    background-color: rgb(255, 225, 223);
+}
+
+.popper-div {
+    background: transparent;
+    z-index: 9999;
+    padding: 0.25em;
+    pointer-events: none;
+}
+
+.icon_layer {
+    color: white;
+    font-size: small;
+    padding: 0px !important;
+    margin-top: 15px;
+
+}
+
+.fa, .fas {
+    padding: 5px !important;
+    font-size: 20px;
+}
+
+.btn-success {
+    color: green !important;
+    background: #eeeeee !important;
+    border: none !important;
+
+}
